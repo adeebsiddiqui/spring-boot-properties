@@ -1,0 +1,14 @@
+com:
+  ad:
+    nickname: Gadha
+    spouse-name: Maisha
+    firstname: Adeeb
+    last-name: Siddiqui
+    age: 33.5
+    family:
+      - father: Abbu
+        mother: Ammu
+        brother: Fayaz
+      - father: Shoshur
+        mother: Shashuri
+        brother: Barru
