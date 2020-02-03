@@ -1,3 +1,4 @@
+# YAML format - property-name followed by colon, followed by a MANDATORY space, followed by property-value
 daak:
   naam: Gadha
 
@@ -20,4 +21,4 @@ com:
       second: nexus
       third: motorola
 
-# .yml can hold .properties style properties as well. example: com.ad.firstname=Adeeb
+# .yml can also hold properties without indentation like com.ad.firstname: Adeeb
