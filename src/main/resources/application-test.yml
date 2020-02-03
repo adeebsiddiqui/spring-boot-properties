@@ -1,0 +1,6 @@
+# If test profile is active then:
+#     1. Similar properties from default profile are overridden and loaded
+#     2. Properties in test only profile are loaded
+#     3. All properties from default profile which are not in test profile are loaded
+daak:
+  naam: test

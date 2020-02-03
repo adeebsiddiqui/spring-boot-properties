@@ -1,6 +1,7 @@
 # YAML format - property-name followed by colon, followed by a MANDATORY space, followed by property-value
+# .yml can also hold properties without indentation e.g. com.ad.firstname: Adeeb
 daak:
-  naam: Gadha
+  naam: dev
 
 com:
   ad:
@@ -21,4 +22,4 @@ com:
       second: nexus
       third: motorola
 
-# .yml can also hold properties without indentation like com.ad.firstname: Adeeb
+# application.yml holds the configuration for default profile, the properties of which are always loaded unless overridden

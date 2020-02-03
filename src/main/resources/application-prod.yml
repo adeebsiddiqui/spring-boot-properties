@@ -1,0 +1,5 @@
+# if multiple profiles are active then configurations are loaded from last listed profile to first in the active profile list
+daak:
+  naam: prod
+
+# try with --spring.profiles.active=test,prod and then --spring.profiles.active=prod,test
