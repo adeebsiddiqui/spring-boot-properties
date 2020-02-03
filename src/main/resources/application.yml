@@ -1,6 +1,9 @@
+daak:
+  naam: Gadha
+
 com:
   ad:
-    nickname: Gadha
+    nickname: ${daak.naam}
     spouse-name: Maisha
     firstname: Adeeb
     last-name: Siddiqui
@@ -12,3 +15,5 @@ com:
       - father: Shoshur
         mother: Shashuri
         brother: Barru
+
+# .yml can hold .properties style properties as well. example: com.ad.firstname=Adeeb
