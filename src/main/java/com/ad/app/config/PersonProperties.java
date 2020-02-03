@@ -7,6 +7,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
+import java.util.Map;
 
 @Data
 @Component
@@ -30,4 +31,6 @@ public class PersonProperties {
     private String lastName;
 
     private List<Family> family;
+
+    private Map<String, String> phones;
 }

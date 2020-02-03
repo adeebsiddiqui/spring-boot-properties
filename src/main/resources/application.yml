@@ -15,5 +15,9 @@ com:
       - father: Shoshur
         mother: Shashuri
         brother: Barru
+    phones:
+      first: nokia
+      second: nexus
+      third: motorola
 
 # .yml can hold .properties style properties as well. example: com.ad.firstname=Adeeb
