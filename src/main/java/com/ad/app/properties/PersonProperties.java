@@ -1,4 +1,4 @@
-package com.ad.app.config;
+package com.ad.app.properties;
 
 import com.ad.app.model.Family;
 import lombok.Data;
