@@ -1,0 +1,5 @@
+automobile:
+  specs:
+    make: Honda
+    model: 1999
+    engine: V6
