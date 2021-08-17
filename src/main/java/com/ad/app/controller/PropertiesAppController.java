@@ -17,12 +17,12 @@ public class PropertiesAppController {
     private PropertiesService propertiesService;
 
     @GetMapping(value = "/persons")
-    public ResponseEntity<PersonProperties> getPersonProperties() {
+    public ResponseEntity<PersonProperties> retrievePersonProperties() {
         return ResponseEntity.ok(propertiesService.getPersonProperties());
     }
 
     @GetMapping(value = "/cars")
-    public ResponseEntity<AutoMobileProperties> getAutoProperties() {
+    public ResponseEntity<AutoMobileProperties> retrieveAutoMobileProperties() {
         return ResponseEntity.ok(propertiesService.getAutoMobileProperties());
     }
 }
